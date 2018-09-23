@@ -20,7 +20,20 @@ You are now ready to stream with the overlay.
 
 As the streamed set(s) progress, you can update the overlay by changing:
 
-- 
+- #team1player1Character
+- #team1player1Port
+- #team1player2Character
+- #team1player2Port
+- #team1NamesText:before
+- #team1ScoreText:before
+- #team2player1Character
+- #team2player1Port
+- #team2player2Character
+- #team2player2Port
+- #team2NamesText:before
+- #team2ScoreText:before
+- #roundBoxText:before
+- #tournamentBoxText:before
 
 at the bottom of styles.css
 
