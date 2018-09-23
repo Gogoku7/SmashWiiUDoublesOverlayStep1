@@ -1,0 +1,352 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* teams */
+
+.teams
+{
+	width: 1920px;
+	height: 80px;
+}
+
+/* teams END*/
+
+
+
+/* team */
+
+.team
+{
+	width: 960px;
+	height: 80px;
+}
+
+#team1
+{
+	float: left;
+}
+
+#team2
+{
+	float: right;
+}
+
+/* team END */
+
+
+
+/* teamBox */
+
+.teamBox
+{
+	width: 650px;
+	height: 50px;
+	margin-top: 30px;
+	overflow: hidden;
+	animation: showPlayerBox 1s;
+}
+
+#team1Box
+{
+	float: right;
+	animation: showPlayerBox 1s;
+	background-image: url('..\\playerBackgrounds\\team1Background.png');
+}
+
+#team2Box
+{
+	float: left;
+	animation: showPlayerBox 1s;
+	background-image: url('..\\playerBackgrounds\\team2Background.png');
+}
+
+/* teamBox END */
+
+
+
+/* playerScore */
+
+.teamScore
+{
+	color: white;
+	font-size: 25px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+#team1ScoreText
+{
+	float: left;
+	margin-left: 30px;
+}
+
+#team2ScoreText
+{
+	float: right;
+	margin-right: 30px;
+}
+
+
+/* playerScore END */
+
+
+
+/* teamPlayer1Port */
+
+.teamPlayer1Port
+{
+	width: 50px;
+	height: 50px;
+	display:inline-block;
+}
+
+#team1player1Port
+{
+	float: left;
+	margin-left: 100px;
+}
+
+#team2player1Port
+{
+	float: right;
+	margin-right: 100px;
+}
+
+/* teamPlayer1Port END */
+
+
+
+/* teamplayerCharacter */
+
+.teamplayerCharacter
+{
+	width: 50px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* teamplayerCharacter */
+
+
+
+/* teamNames */
+
+.teamNames
+{
+	color: white;
+	font-size: 25px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+#team1NamesText
+{
+	float: left;
+	margin-left: 50px;
+}
+
+#team2NamesText
+{
+	float: right;
+	margin-right: 50px;
+}
+
+/* teamNames END*/
+
+
+
+/* teamPlayer2Port */
+
+.teamPlayer2Port
+{
+	width: 50px;
+	height: 50px;
+	display:inline-block;
+}
+
+#team1player2Port
+{
+	float: left;
+	margin-left: 50px;
+}
+
+#team2player2Port
+{
+	float: right;
+	margin-right: 50px;
+}
+
+/* teamPlayer2Port END */
+
+
+
+/* tournamentInfo */
+
+.tournamentInfo
+{
+	width: 1920px;
+	height: 18px;
+}
+
+/* tournamentInfo END */
+
+/* info */
+
+.info
+{
+	width: 960px;
+	height: 18px;
+}
+
+#infoRound
+{
+	float: left;
+}
+
+#infoTournament
+{
+	float: right;
+}
+
+/* info END */
+
+
+
+/* infoBox */
+
+.infoBox
+{
+	width: auto;
+	height: 18px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	background-image: url('..\\boxBackground\\infoBoxBackground.png');
+}
+
+#infoRoundBox
+{
+	float: right;
+}
+
+#infoTournamentBox
+{
+	float: left;
+}
+
+/* roundBox END */
+
+
+
+/* boxText */
+.boxText
+{
+	width: auto;
+	margin: 0px;
+	white-space: nowrap;
+	color: white;
+}
+
+#roundBoxText
+{
+	
+}
+
+#tournamentBoxText
+{
+	
+}
+
+/* BoxText END */
+
+
+
+/* animations */
+
+@keyframes showPlayerBox
+{
+	0% {width:0%}
+	100% {width:67.70833333333333%}
+}
+
+/* animations END */
+
+
+
+/* Content */
+
+#team1player1Character
+{
+	background-image: url('..\\characterIcons\\Bowser.png');
+}
+
+#team1player1Port
+{
+	background-image: url('..\\playerPorts\\playerPort1.png');
+}
+
+#team1player2Character
+{
+	background-image: url('..\\characterIcons\\Fox.png');
+}
+
+#team1player2Port
+{
+	background-image: url('..\\playerPorts\\playerPort1.png');
+}
+
+#team1NamesText:before
+{
+	content:"Gogoku7 + Median4";
+}
+
+#team1ScoreText:before
+{
+	content:"1";
+}
+
+#team2player1Character
+{
+	background-image: url('..\\characterIcons\\Bowser.png');
+}
+
+#team2player1Port
+{
+	background-image: url('..\\playerPorts\\playerPort2.png');
+}
+
+#team2player2Character
+{
+	background-image: url('..\\characterIcons\\Fox.png');
+}
+
+#team2player2Port
+{
+	background-image: url('..\\playerPorts\\playerPort2.png');
+}
+
+#team2NamesText:before
+{
+	content:"ZeRo + Nairo";
+}
+
+#team2ScoreText:before
+{
+	content:"1";
+}
+
+#roundBoxText:before
+{
+	content:"Round 1 / Best of 3";
+}
+
+#tournamentBoxText:before
+{
+	content:"Syndicate 2018";
+}
+
+/* Content END */
