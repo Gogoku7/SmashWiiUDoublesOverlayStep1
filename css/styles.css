@@ -106,13 +106,13 @@ body
 #team1player1Port
 {
 	float: left;
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 #team2player1Port
 {
 	float: right;
-	margin-right: 100px;
+	margin-right: 50px;
 }
 
 /* teamPlayer1Port END */
@@ -133,26 +133,47 @@ body
 
 
 
-/* teamNames */
+/* teamNameBox */
 
-.teamNames
+.teamNameBox
 {
-	color: white;
-	font-size: 25px;
-	margin-top: 11px;
-	margin-bottom: 11px;
+	width: 250px;
+	height: 50px;
+	display: flex;
+	align-items: center;
 }
 
-#team1NamesText
+#team1NameBox
 {
 	float: left;
 	margin-left: 50px;
 }
 
-#team2NamesText
+#team2NameBox
 {
 	float: right;
 	margin-right: 50px;
+}
+
+/* teamNameBox END */
+
+
+/* teamNames */
+
+.teamNames
+{
+	color: white;
+	margin: 0;
+}
+
+#team1NamesText
+{
+	
+}
+
+#team2NamesText
+{
+	
 }
 
 /* teamNames END*/
