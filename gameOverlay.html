@@ -10,7 +10,9 @@
 			<div class="teams">
 				<div class="team" id="team1">
 					<div class="teamBox" id="team1Box">
-						<p class="teamScore" id="team1ScoreText"></p>
+						<div class="teamScoreBox" id="team1ScoreBox">
+							<p class="teamScore" id="team1ScoreText"></p>
+						</div>
 						<div class="teamPlayer1Port" id="team1player1Port">
 							<div class="teamplayerCharacter" id="team1player1Character"></div>
 						</div>
@@ -25,7 +27,9 @@
 				
 				<div class="team" id="team2">
 					<div class="teamBox" id="team2Box">
-						<p class="teamScore" id="team2ScoreText"></p>
+						<div class="teamScoreBox" id="team2ScoreBox">
+							<p class="teamScore" id="team2ScoreText"></p>
+						</div>
 						<div class="teamPlayer1Port" id="team2player1Port">
 							<div class="teamplayerCharacter" id="team2player1Character"></div>
 						</div>
@@ -59,6 +63,8 @@
 <script>
 	$( document ).ready(function() {
 		fitty('.teamNames', { minSize: 8, maxSize: 40, multiLine: false });
+		fitty('.teamScore', { minSize: 8, maxSize: 25, multiLine: false });
+		
 	});
 	
 	function onTimerTick() {
@@ -68,6 +74,7 @@
         });
 		
 		fitty('.teamNames', { minSize: 8, maxSize: 40, multiLine: false });
+		fitty('.teamScore', { minSize: 8, maxSize: 25, multiLine: false });
     }
 
     setInterval(function () {
